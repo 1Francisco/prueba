@@ -13,6 +13,7 @@ def solve_maze(maze):
     # Movimiento en 4 direcciones
     directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
+ #Alan
     # BFS setup
     queue = deque([start])
     visited = set()
